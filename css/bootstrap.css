@@ -18,8 +18,6 @@ details,
 figcaption,
 figure,
 footer{
-/*  width: 1440px;
-  margin-left: 0px;*/
 }
 header,
 hgroup,
@@ -1614,6 +1612,7 @@ pre code {
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 0px;
 }
 .row {
   margin-right: -15px;
@@ -4175,7 +4174,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 0px solid transparent;
   padding-left: 15px;
   padding-right: 15px;
@@ -4507,11 +4506,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: white;
   border-color: #e7e7e7;
   font-family: 'Roboto', sans-serif;
   color: black;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 1.25em;
 }
 .navbar-default .navbar-brand {
@@ -4981,10 +4981,10 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width: 100%;
   text-align: center;
   color: black;
@@ -5029,17 +5029,35 @@ a.badge:focus {
     font-size: 63px;
   }
 }
-.container_footer{
+.mega-footer{
   text-align: left;
   font-family: 'Roboto Condensed', sans-serif;
   color: black;
   color: #FF4515;
-/*  background-color: white;
-*/}
+  padding-right: 180px;
+  padding-left: 180px;
+  padding-top: 20px;
+  background-color: #262626;
+}
 
-.container_footer a{
-  color: black;
+.mega-footer a{
+  color: #eee;
   font-size: 1em;
+}
+.mega-footer a:hover{
+  color: #FF4515;
+  text-decoration: none;
+}
+.mega-footer_bottom{
+  background-color: #262626;
+  margin-bottom: 0;
+  text-align: right;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  color: #eee;
+
 }
 
 .thumbnail {
