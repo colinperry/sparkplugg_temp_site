@@ -6302,6 +6302,9 @@ button.close {
   width: 100%;
   overflow: hidden;
 }
+.slide1{
+  background: url("img/sparkplugg_logo_red.jpg")
+}
 .carousel-inner > .item {
   position: relative;
   display: none;
