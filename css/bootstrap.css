@@ -6550,37 +6550,36 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  top: 15%;
+  top: 0%;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: -12px;
   color: #fff;
   text-align: center;
   text-shadow: 0 0px 0px rgba(0, 0, 0, .6);
-  font-size: 3em;
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
 }
 .carousel-caption h1{
-  font-size: 2em;
 }
 .carousel-caption .btn {
   text-shadow: none;
   background-color: #FF4515;
-  border: none;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 15px;
-  font-size: .5em;
+  border: 1px solid #FF4515;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: .75em;
   border-radius: 5px;
 }
 
 .carousel-caption .btn:hover{
   background-color: #fff;
   color: #FF4515;
+  border: 1px solid #FF4515;
   transition: all 0.5s ease 0s;
 }
 @media screen and (min-width: 768px) {
@@ -6605,11 +6604,138 @@ button.close {
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
+    font-size: 3em;
+    top: 5%;
   }
+  .carousel-caption h1{
+    font-size: 1.5em;
+  }
+  .carousel-caption .btn {
+  text-shadow: none;
+  background-color: #FF4515;
+  border: 1px solid #FF4515;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  font-size: .4em;
+  border-radius: 5px;
+}
+
+.carousel-caption .btn:hover{
+  background-color: #fff;
+  color: #FF4515;
+  border: 1px solid #FF4515;
+  transition: all 0.5s ease 0s;
+}
   .carousel-indicators {
     bottom: 20px;
   }
 }
+@media screen and (min-width: 992px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -10px;
+  }
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    font-size: 3.25em;
+    top: 15%;
+  }
+  .carousel-caption h1{
+    font-size: 1.5em;
+  }
+  .carousel-caption .btn {
+  text-shadow: none;
+  background-color: #FF4515;
+  border: 1px solid #FF4515;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  font-size: .6em;
+  border-radius: 5px;
+}
+
+.carousel-caption .btn:hover{
+  background-color: #fff;
+  color: #FF4515;
+  border: 1px solid #FF4515;
+  transition: all 0.5s ease 0s;
+}
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -10px;
+  }
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    font-size: 3.5em;
+    top: 15%;
+  }
+  .carousel-caption h1{
+    font-size: 2em;
+  }
+  .carousel-caption .btn {
+  text-shadow: none;
+  background-color: #FF4515;
+  border: 1px solid #FF4515;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px;
+  font-size: .6em;
+  border-radius: 5px;
+}
+
+.carousel-caption .btn:hover{
+  background-color: #fff;
+  color: #FF4515;
+  border: 1px solid #FF4515;
+  transition: all 0.5s ease 0s;
+}
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
