@@ -1615,16 +1615,20 @@ pre code {
   margin-bottom: 0px;
 }
 .culture-content{
-  padding-right: 200px;
-  padding-left: 200px;
+/*  padding-right: 200px;
+  padding-left: 200px;*/
   margin-bottom: 50px;
 
 }
 .culture-content h1{
   font-size: 1.5em;
-  color: #FF4515;
+  color: black;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.culture-content div{
+  text-align: center;
+
 }
 .culture-content a{
   background-color: #FF4515;
@@ -1633,8 +1637,8 @@ pre code {
   padding-top: 40px;
   padding-bottom: 40px;
   border-radius: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   margin-bottom: 50px;
   font-size: 1.5em;
@@ -5068,6 +5072,63 @@ a.badge:focus {
   .jumbotron .h1 {
     font-size: 63px;
   }
+}
+.jumbotron-cause {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: inherit;
+  background-color: white;
+  width: 100%;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.jumbotron-cause h1,
+.jumbotron-cause .h1 {
+  color: #FF4515;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
+}
+.jumbotron-cause h2{
+  color: #FF4515;
+}
+.jumbotron-cause p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 0px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+.category-img{
+  margin-top: 11%;
+  text-align: center;
 }
 .account-overview{
   font-family: 'Roboto Condensed', sans-serif;
