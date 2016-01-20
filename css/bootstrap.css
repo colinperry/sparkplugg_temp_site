@@ -5066,6 +5066,33 @@ a.badge:focus {
     font-size: 63px;
   }
 }
+.account-overview{
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.account-overview div{
+  padding-right: 20px;
+/*  border: 1px solid black;
+  border-radius: 5px;*/
+  margin-bottom: 20px;
+}
+.account-overview h2{
+  color: #FF4515;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.account-overview h3{
+  color: #FF4515; 
+}
+.account-overview a{
+  color: black;
+}
+.account-overview a:hover{
+  color: #FF4515;
+  text-decoration: none;
+}
 .mega-footer{
   text-align: left;
   font-family: 'Roboto Condensed', sans-serif;
