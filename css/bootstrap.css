@@ -4375,6 +4375,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -5018,18 +5019,20 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
   color: inherit;
-  background-color: #eee;
+  background-color: white;
   width: 100%;
   text-align: center;
   color: black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #FF4515;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
 }
 .jumbotron h2{
   color: #FF4515;
