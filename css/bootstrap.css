@@ -4397,7 +4397,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -5039,8 +5039,8 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 0px;
   padding-right: 15px;
   padding-left: 15px;
   color: inherit;
@@ -5054,6 +5054,9 @@ a.badge:focus {
 .jumbotron .h1 {
   color: #FF4515;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 0px;
+  margin-top: 30px;
+  margin-bottom: -30px;
 }
 .jumbotron h2{
   color: #FF4515;
@@ -5087,7 +5090,11 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    color: #FF4515;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0;
+    margin-top: -10px;
+    margin-bottom: -30px;
   }
 }
 .jumbotron-cause {
