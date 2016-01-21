@@ -5135,6 +5135,9 @@ a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
+.jumbotron strong{
+  color: #FF4515;
+}
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
