@@ -5099,7 +5099,7 @@ a.badge:focus {
 }
 .jumbotron-cause {
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   padding-right: 15px;
   padding-left: 15px;
   color: inherit;
@@ -5168,12 +5168,16 @@ a.badge:focus {
 .account-overview h2{
   color: #FF4515;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #FF4515;
   border-radius: 5px;
 }
 .account-overview h3{
   color: #FF4515; 
 }
+.account-overview h4{
+  color: #FF4515; 
+}
+
 .account-overview a{
   color: black;
 }
