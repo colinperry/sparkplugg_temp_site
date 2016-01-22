@@ -1590,7 +1590,6 @@ pre code {
   padding-left: 15px;
   margin-right: 0px;
   margin-left: 0px;
-/*  width: 1440px;*/
 }
 @media (min-width: 768px) {
   .container {
@@ -5158,13 +5157,9 @@ a.badge:focus {
 }
 .account-overview{
   font-family: 'Roboto Condensed', sans-serif;
-  /*padding-left: 80px;
-  padding-right: 80px;*/
 }
 .account-overview div{
   padding-right: 20px;
-/*  border: 1px solid black;
-  border-radius: 5px;*/
   margin-bottom: 20px;
 }
 .account-overview h2{
