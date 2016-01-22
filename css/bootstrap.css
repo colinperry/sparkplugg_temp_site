@@ -6606,14 +6606,14 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-/*  bottom: 10px;
+  bottom: 10px;
   left: 50%;
   z-index: 15;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
   text-align: center;
-  list-style: none;*/
+  list-style: none;
 }
 .carousel-indicators li {
   display: inline-block;
@@ -6639,7 +6639,7 @@ button.close {
   top: 0%;
   left: 15%;
   z-index: 10;
-  margin-top: -12px;
+  margin-top: 0px;
   color: #fff;
   text-align: center;
   text-shadow: 0 0px 0px rgba(0, 0, 0, .6);
@@ -6647,25 +6647,24 @@ button.close {
   color: white;
 }
 .carousel-caption h1{
+  margin-top: 0px;
 }
 .carousel-caption .btn {
   text-shadow: none;
   background-color: #FF4515;
-  border: 1px solid #FF4515;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: .75em;
   border-radius: 5px;
+  border: none;
 }
-
 .carousel-caption .btn:hover{
   background-color: #fff;
   color: #FF4515;
-  border: 1px solid #FF4515;
   transition: all 0.5s ease 0s;
 }
 @media screen and (min-width: 768px) {
@@ -6695,11 +6694,11 @@ button.close {
   }
   .carousel-caption h1{
     font-size: 1.5em;
+    margin-top: 0px;
   }
   .carousel-caption .btn {
   text-shadow: none;
   background-color: #FF4515;
-  border: 1px solid #FF4515;
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 15px;
@@ -6707,18 +6706,16 @@ button.close {
   margin-top: 15px;
   font-size: .4em;
   border-radius: 5px;
+  border: none;
 }
-
 .carousel-caption .btn:hover{
   background-color: #fff;
   color: #FF4515;
-  border: 1px solid #FF4515;
   transition: all 0.5s ease 0s;
 }
-  .carousel-indicators {
+.carousel-indicators {
     bottom: 20px;
   }
-}
 @media screen and (min-width: 992px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -6750,7 +6747,6 @@ button.close {
   .carousel-caption .btn {
   text-shadow: none;
   background-color: #FF4515;
-  border: 1px solid #FF4515;
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 15px;
@@ -6758,12 +6754,12 @@ button.close {
   margin-top: 15px;
   font-size: .6em;
   border-radius: 5px;
+  border: none;
 }
 
 .carousel-caption .btn:hover{
   background-color: #fff;
   color: #FF4515;
-  border: 1px solid #FF4515;
   transition: all 0.5s ease 0s;
 }
   .carousel-indicators {
@@ -6801,7 +6797,6 @@ button.close {
   .carousel-caption .btn {
   text-shadow: none;
   background-color: #FF4515;
-  border: 1px solid #FF4515;
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 15px;
@@ -6809,12 +6804,12 @@ button.close {
   margin-top: 40px;
   font-size: .6em;
   border-radius: 5px;
+  border: none;
 }
 
 .carousel-caption .btn:hover{
   background-color: #fff;
   color: #FF4515;
-  border: 1px solid #FF4515;
   transition: all 0.5s ease 0s;
 }
   .carousel-indicators {
