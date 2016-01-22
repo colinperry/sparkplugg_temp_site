@@ -5158,8 +5158,8 @@ a.badge:focus {
 }
 .account-overview{
   font-family: 'Roboto Condensed', sans-serif;
-  padding-left: 80px;
-  padding-right: 80px;
+  /*padding-left: 80px;
+  padding-right: 80px;*/
 }
 .account-overview div{
   padding-right: 20px;
