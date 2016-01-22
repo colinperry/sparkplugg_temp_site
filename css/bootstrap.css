@@ -5097,11 +5097,14 @@ a.badge:focus {
     margin-bottom: -30px;
   }
 }
+.category-img{
+  margin-top: 8%;
+  text-align: center;
+  padding-bottom: 25px;
+}
 .jumbotron-cause {
   padding-top: 10px;
-  padding-bottom: 80px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 5px;
   color: inherit;
   background-color: white;
   width: 100%;
@@ -5152,10 +5155,6 @@ a.badge:focus {
   .jumbotron .h1 {
     font-size: 63px;
   }
-}
-.category-img{
-  margin-top: 11%;
-  text-align: center;
 }
 .account-overview{
   font-family: 'Roboto Condensed', sans-serif;
